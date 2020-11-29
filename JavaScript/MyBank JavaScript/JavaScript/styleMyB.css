@@ -1,0 +1,292 @@
+html, body, div, span, h1, h2, h3, p, a, img, ul, li, footer, header, nav, section 
+{
+    padding: 0;
+    border: 0;
+}
+ 
+body {
+    line-height: 1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    background: rgb(217, 231, 217);
+    z-index: 1000;
+    position: fixed;
+}
+
+/* para fazer barras*/
+nav {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgb(105, 102, 102) 0px 1px 1px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 45px;
+}
+
+.itens-menu {
+    width: auto;
+    margin-left: 30px;
+    color: black;
+    
+}
+
+.itens-menu:hover {
+    color: rgb(73, 161, 88);
+    /*font-size: 20px; */
+}
+
+#right-side-menu-itens {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    height: 100%;
+    
+}
+
+#login a {
+    color: rgb(11, 92, 0);
+}
+
+#btn-menu {
+    border: none;
+    width: 200px;
+    margin-left: 50px;
+    height: 100%;
+    background: rgb(11, 92, 0);
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.texto-verde {
+    color: rgb(73, 161, 88);
+}
+
+#conta-digital {
+    display: flex;
+    padding: 2%;
+}
+
+#conta-digital div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#conta-digital p {
+    text-align: left;
+    width: 40%;
+    font-size: 60px;
+    margin-right: 5%;
+    font-weight: 600;
+}
+
+#conta-digital p span a {
+font-size: 20px;
+color: rgb(151, 209, 161);
+}
+
+#conta-digital  img {
+    width: 500px;
+}
+
+
+#cartao-de-credito {
+    display: flex;
+    padding: 2%;
+
+}
+
+#cartao-de-credito div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cartao-de-credito p {
+    text-align: left;
+    width: 40%;
+    font-size: 60px;
+    margin-right: 5%;
+    font-weight: 600;
+    margin-top: 5%;
+}
+
+#cartao-de-credito p span a {
+font-size: 20px;
+color: rgb(151, 209, 161);
+}
+
+#cartao-de-credito  img {
+    width: 500px;
+}
+
+
+#rewards {
+    display: flex;
+    margin-top: 5%;
+    background: rgb(20, 128, 6);
+    padding: 5%;
+}
+
+#rewards div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rewards p {
+    text-align: left;
+    color: white;
+    width: 40%;
+    font-size: 60px;
+    margin-right: 5%;
+    font-weight: 600;
+}
+
+#rewards p span {
+    color: rgb(34, 226, 76);
+
+}
+
+#rewards p span a{
+    font-size: 20px;
+    color: rgb(151, 209, 161);
+}
+
+#rewards  img {
+    width: 500px;
+}
+
+#contatos {
+    padding: 4%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#contatos a {
+
+    border: 1px solid  rgb(151, 209, 161);
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px 50px;
+    color: white;
+    background: rgb(20, 128, 6);
+    transition: all 0.6s ease;
+}
+#contatos a:hover {
+    background: transparent !important;
+    color: rgb(20, 128, 6);
+    transition: all 0.6s ease;
+}
+
+footer {
+    background: rgb(58, 61, 59);
+    height: 200px;
+    padding: 3%;
+    color: white;
+    line-height: 2;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h1{
+    font-size: 25px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover{
+    color: rgb(151, 209, 161);
+}
+
+
+#redes-sociais-footer {
+    width: 15%;
+}
+
+#redes-sociais-footer a {
+    margin: 5%;
+
+}
+
+#redes-sociais-footer a img {
+    width: 30px;
+
+}
+
+.itens-footer {
+    margin: 5%;
+}
+
+.float {
+    right: 30px;
+    position: fixed;
+    height: 60px;
+    bottom: 100px;
+}
+
+#caixatexto {
+    background: #fff;
+    color: rgb(13, 73, 26);
+    position: fixed;
+    width: 130px;
+    bottom: 60px;
+    right: 80px;
+    font-size: 16px;
+    line-height: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #043d0c;
+   visibility: hidden;
+}
+
+#what {
+    width: 50px;
+}
+
+/* scroll personalizado */
+
+::-webkit-scrollbar{
+    /* largura da barra */
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    /* cor de fundo da barra */
+
+    background: #cdffc9;
+}
+
+::-webkit-scrollbar-thumb{
+    /* cor da barra de rolagem */
+    background: #57ff57a6;
+}
+::-webkit-scrollbar-thumb:hover{
+    /* cor da barra de rolagem quando o cursor estiver nela */
+    background: #01770b;
+}
